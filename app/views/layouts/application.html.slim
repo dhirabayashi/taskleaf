@@ -24,3 +24,4 @@ html
       - if flash.notice.present?
         .alert.alert-success= flash.notice
     = yield
+    = javascript_pack_tag 'application'
